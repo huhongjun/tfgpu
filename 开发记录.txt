@@ -1,4 +1,4 @@
-开发记录
+﻿开发记录
 
 计算机配置
 GeForce GTX 1050 Ti	Pascal 768	Up to 4 GB GDDR5
@@ -32,4 +32,8 @@ sklearn机器学习用于点云分类
 
 	run ok
 CUDA_VISIBLE_DEVICES=0 python tensorflow/examples/tutorials/mnist/mnist_with_summaries.py
-CUDA_VISIBLE_DEVICES=0 python gpu.py gpu 1500
+Linux
+	CUDA_VISIBLE_DEVICES=0 python gpu.py gpu 1500
+Windows
+	set CUDA_VISIBLE_DEVICES=0
+	python gpu.py gpu 1500

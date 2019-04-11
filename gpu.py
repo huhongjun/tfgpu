@@ -1,3 +1,7 @@
+#
+# Linux:    CUDA_VISIBLE_DEVICES=0 python gpu.py gpu 1500
+#
+
 import sys
 import numpy as np
 import tensorflow as tf
